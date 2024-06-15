@@ -1,0 +1,424 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+/* шапка сайта */
+header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1%;
+}
+.nav{
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  
+}
+.nav a{
+  color: black;
+  font-size: 26px;
+  margin-left: 25px;
+  font-family: 'Ubuntu', sans-serif;
+}
+.logo{
+  font-size: 35px;
+  font-weight: bold;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: left;
+}
+.logo a{
+  color: black;
+}
+.nav a:hover{
+  color: rgb(216, 216, 14);
+}
+/* первый блок */
+.prev{
+  width: 100%;
+    height: 70vh;
+    background: url("img/1650632970_31-sportishka-com-p-nyu-york-nochyu-krasivo-foto-40.jpg") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding-top: 18%;
+}
+.zakaz{
+  border-right: 2px solid #fff;
+  height: 300px;
+  padding-right: 40px;
+}
+.prev h1{
+  color: white;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 45px;
+}
+.prev p{
+  color: white;
+  text-align: center;
+  font-size: 37px;
+  margin-bottom: 10px;
+}
+
+.sup_block2 button{
+  width: 200px;
+  background: none;
+}
+.sup_block2 button img{
+  width: 100%;
+}
+.pril{
+  display: block;
+  border-left: 10px;
+  color: white;
+  padding-left: 40px;
+}
+.zakaz button{
+  border: none;
+  border-radius: 30px;
+  padding: 3%;
+  background-color:  rgb(216, 216, 14);
+  font-size: 29px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+}
+.zakaz button:hover{
+  background: #dccc00;
+    box-shadow: rgb(255,237,24) 0 0 40px 10px;
+}
+/* второй блок */
+.support{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+.sup_block3{
+  width: 180px;
+  padding: 1%;
+}
+.sup_block3 img{
+  width: 100%;
+}
+.zagolovok{
+  text-align: center;
+  margin-top: 40px;
+  font-family: 'Ubuntu', sans-serif;
+}
+.zagolovok h1{
+  font-size: 38px;
+}
+.zagolovok p{
+  font-size: 28px;
+  color: rgb(70, 70, 70);
+}
+.text_h{
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 32px;
+}
+.text_p{
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 25px;
+  color: rgb(70, 70, 70);
+}
+.servis{
+  padding-bottom: 50px;
+}
+/* блок со слайдером */
+.slider-container{
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+  width: 60%;
+  margin-top: 2%;
+  border-radius: 20px;
+}
+.slider{
+  display: flex;
+  transition: transform 3s ease-in-out;
+}
+.slider img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.prev-button, .next-button{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 70px;
+  height: 70px;
+  background-color: transparent;
+  border: none;
+  font-size: 44px;
+  color: rgb(3, 3, 3);
+}
+.prev-button{
+  left: 10px;
+}
+.next-button{
+  right: 10px;
+}
+.knopki{
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.knopki button{
+  background: none;
+  border-radius: 20px;
+  border: none;
+  margin-left: 10px;
+}
+.block_s_slider{
+  background-color: #dccc00;
+  padding-top: 30px;
+}
+
+/* блок с работой */
+.supp_b{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding-bottom: 100px;
+}
+.h_text{
+  font-weight: bold;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 30px;
+  color: rgb(46, 46, 45);
+}
+.p_text{
+  font-weight: bold;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 24px;
+  color: rgb(46, 46, 45);
+}
+.zvezdeg{
+  margin-left: 100px;
+}
+.icon{
+  width: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.icon img{
+  width: 100%;
+}
+.sup_block5{
+  display: flex;
+}
+.rabota{
+  background-color: rgb(34, 33, 33);
+  padding: 2%;
+}
+
+.rabota button{
+  border: none;
+  border-radius: 30px;
+  padding: 1%;
+  background-color:  rgb(216, 216, 14);
+  font-size: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+
+}
+.rabota button:hover{
+  background: #dccc00;
+  box-shadow: rgb(255,237,24) 0 0 40px 10px;
+}
+.text_h_2{
+  color: #b9afaf;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 38px;
+}
+.text_p_2{
+  color: #b9afaf;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 28px;
+}
+.sup_block4{
+  padding-top: 30px;
+  padding-left: 150px;
+}
+.rabota img{
+  margin-left: 230px;
+  margin-top: -240px;
+}
+/* блок с картой */
+.karta{
+  width: 100%;
+}
+/* подвал */
+.sup_block6{
+  display: flex;
+  padding-top: 30px;
+  justify-content: center;
+  padding-bottom: 60px;
+  border-bottom: 2px solid #fff;
+width: 60%;
+margin-left: 350px;
+}
+.footer, h1, p{
+  font-family: 'Ubuntu', sans-serif;
+  color: #fff;
+}
+.logo_f{
+  font-size: 35px;
+  font-weight: bold;
+  font-family: 'Ubuntu', sans-serif;
+ color: #fff;
+ padding-left: 60px;
+ padding-right: 60px;
+}
+footer{
+  background-color: rgba(109, 121, 4, 0.815) ;
+}
+.ofis{
+  padding-right: 60px;
+ 
+}
+.prava{
+  text-align: center;
+  font-size: 21px;
+  padding: 1%;
+}
+
+
+/* форма для водителей */
+.vodit{
+  width: 100%;
+    height: 100vh;
+    background: url("img/street-at-night-with-traffic.webp") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    
+}
+.vodit form{
+  width: 400px;
+  border: none;
+  border-radius: 20px;
+  padding: 2%;
+  background-color: rgba(0, 0, 0, 0.438);
+  height: 350px;
+  margin-top: 100px;
+}
+.vodit input{
+  border: none;
+  font-size: 30px;
+  padding: 2%;
+  margin-top: 10px;
+  border-radius: 15px;
+  background: rgba(27, 25, 25, 0.678);
+  color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+}
+.vodit button{
+  border: none;
+  font-size: 20px;
+  padding-left: 125px;
+  padding-right: 125px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 25px;
+  border-radius: 30px;
+  background: rgb(196, 196, 8);
+  color: #080808;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+}
+.vodit p{
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  font-size: 40px;
+  color: rgb(196, 196, 8);
+}
+.vodit button:hover{
+  background: #dccc00;
+  box-shadow: rgb(255,237,24) 0 0 40px 10px;
+}
+/* для заказов */
+.zakaz_taxi{
+  width: 100%;
+    height: 100vh;
+    background: url("img/james-genchi-llJq2PcIuEE-unsplash-1024x683.jpg") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.zakaz_taxi form{
+  width: 400px;
+  border: none;
+  border-radius: 20px;
+  padding: 2%;
+  background-color: rgba(0, 0, 0, 0.438);
+  height: 350px;
+  margin-top: 100px;
+}
+.zakaz_taxi input{
+  border: none;
+  font-size: 30px;
+  padding: 2%;
+  margin-top: 10px;
+  border-radius: 15px;
+  background: rgba(27, 25, 25, 0.678);
+  color: #fff;
+}
+.zakaz_taxi button{
+  border: none;
+  font-size: 20px;
+  padding-left: 125px;
+  padding-right: 125px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 25px;
+  border-radius: 30px;
+  background: rgb(196, 196, 8);
+  color: #080808;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+}
+.zakaz_taxi p{
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  font-size: 40px;
+  color: rgb(196, 196, 8);
+}
+.zakaz_taxi button:hover{
+  background: #dccc00;
+  box-shadow: rgb(255,237,24) 0 0 40px 10px;
+}
+.zakaz_taxi select{
+  border: none;
+  font-size: 30px;
+  padding: 2%;
+  margin-top: 10px;
+  border-radius: 15px;
+  background: rgba(27, 25, 25, 0.678);
+  color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+}
+.otvet{
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  font-size: 28px;
+  color: rgb(196, 196, 8);
+}
